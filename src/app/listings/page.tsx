@@ -9,6 +9,7 @@ import { PencilIcon, TrashIcon } from "lucide-react";
 async function getListings() {
     const response = await fetch("http://localhost:8080/listings")
     return await response.json()
+    
 }
 
 export default async function ListingsPage() {
