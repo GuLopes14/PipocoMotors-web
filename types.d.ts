@@ -1,9 +1,12 @@
 interface Listings { 
     "id": number,
     "brand": string,
-    "name": string,
+    "model": string,
     "plate": string,
     "yearModel": number,
     "color": string,
-    "value": number  
+    "price": number,
+    "fipePrice": number, 
+    "description": string,
+    "quilometers": number,
 }
